@@ -1,36 +1,53 @@
-🎓 Cantilever
-Machine Learning Internship Projects
-Sentiment Analysis System & Credit Card Fraud Detection using Python
+# 🎓 Cantilever
 
-🎬 Sentiment Analysis System
-📌 Project Description
-The Sentiment Analysis System is a Machine Learning and Natural Language Processing (NLP) project that classifies movie reviews as Positive or Negative.
+Machine Learning Internship Projects using Python.
 
-The model is trained on the IMDb Movie Reviews Dataset (50,000 reviews) and uses TF-IDF Vectorization along with Logistic Regression to perform sentiment classification.
+---
 
-This project demonstrates a complete ML pipeline including:
+# 🎬 Sentiment Analysis System
 
-Data preprocessing
-Text cleaning
-Feature extraction
-Model training
-Evaluation
-Prediction
-🎯 Objective
-To automatically determine the sentiment of a movie review by analyzing text and classifying it as:
+## 📌 Project Description
 
-👍 Positive
-👎 Negative
-🛠 Technologies Used
-Python
-Pandas
-NumPy
-Scikit-learn
-NLTK (for text preprocessing)
-TF-IDF Vectorization
-Logistic Regression
-Pickle (Model saving)
-📂 Project Structure
+The Sentiment Analysis System is a Machine Learning and Natural Language Processing (NLP) project that classifies movie reviews as **Positive** or **Negative**.
+
+The model is trained on the **IMDb Movie Reviews Dataset (50,000 reviews)** and uses **TF-IDF Vectorization** along with **Logistic Regression** to perform sentiment classification.
+
+This project demonstrates a complete Machine Learning workflow including:
+
+* Data Preprocessing
+* Text Cleaning
+* Feature Extraction
+* Model Training
+* Model Evaluation
+* Sentiment Prediction
+
+---
+
+## 🎯 Objective
+
+To automatically determine the sentiment of a movie review by analyzing its text and classifying it as:
+
+* 👍 Positive
+* 👎 Negative
+
+---
+
+## 🛠 Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* NLTK
+* TF-IDF Vectorization
+* Logistic Regression
+* Pickle
+
+---
+
+## 📂 Project Structure
+
+```text
 Sentiment_Analysis_System/
 │
 ├── data/
@@ -49,7 +66,6 @@ Sentiment_Analysis_System/
 │
 ├── requirements.txt
 └── README.md
-<<<<<<< HEAD
 ```
 
 ---
@@ -59,14 +75,9 @@ Sentiment_Analysis_System/
 * Dataset: IMDb Movie Reviews Dataset
 * Total Reviews: 50,000
 * Classes:
-<<<<<<< HEAD
 
   * Positive Reviews
   * Negative Reviews
-=======
-* Positive Reviews
-* Negative Reviews
->>>>>>> d66c13c (Update README)
 
 ---
 
@@ -75,21 +86,21 @@ Sentiment_Analysis_System/
 ### 1. Data Preprocessing
 
 * Convert text to lowercase
-* Remove punctuation
+* Remove special characters and punctuation
 * Remove stopwords using NLTK
-* Clean review text
+* Clean and normalize review text
 
 ### 2. Feature Extraction
 
-* TF-IDF Vectorization
+* Convert text into numerical vectors using TF-IDF Vectorization
 
 ### 3. Model Training
 
-* Logistic Regression Classifier
+* Train a Logistic Regression classifier on the processed dataset
 
 ### 4. Model Evaluation
 
-* Accuracy Score
+* Evaluate model performance using accuracy score
 
 ### 5. Prediction
 
@@ -99,9 +110,9 @@ Sentiment_Analysis_System/
 
 ## 📈 Results
 
-**Model Accuracy: ~88.89%**
+**Model Accuracy:** ~88.89%
 
-Example:
+### Example
 
 **Input**
 
@@ -119,6 +130,8 @@ Positive Review
 
 ## 🚀 Installation
 
+Install required packages:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -127,13 +140,13 @@ pip install -r requirements.txt
 
 ## ▶️ Run the Project
 
-Train the model:
+### Train the Model
 
 ```bash
 python src/train_model.py
 ```
 
-Predict sentiment:
+### Predict Sentiment
 
 ```bash
 python src/predict.py
@@ -164,6 +177,4 @@ python src/predict.py
 
 ## 🏆 Conclusion
 
-This project demonstrates the use of NLP and Machine Learning techniques to classify movie reviews based on sentiment. Using TF-IDF Vectorization and Logistic Regression, the system achieves high accuracy and has practical real-world applications.
-=======
->>>>>>> cb79682e7c34472f65e400ed5e74fa50fd86effd
+This project demonstrates the practical use of Machine Learning and Natural Language Processing techniques for sentiment classification. By combining TF-IDF Vectorization with Logistic Regression, the system achieves high accuracy and can be applied to various real-world text analysis tasks.
