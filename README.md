@@ -73,9 +73,14 @@ Sentiment_Analysis_System/
 * Dataset: IMDb Movie Reviews Dataset
 * Total Reviews: 50,000
 * Classes:
+<<<<<<< HEAD
 
   * Positive Reviews
   * Negative Reviews
+=======
+* Positive Reviews
+* Negative Reviews
+>>>>>>> d66c13c (Update README)
 
 ---
 
