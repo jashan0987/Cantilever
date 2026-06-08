@@ -1,51 +1,36 @@
-# 🎓 Cantilever
+🎓 Cantilever
+Machine Learning Internship Projects
+Sentiment Analysis System & Credit Card Fraud Detection using Python
 
-Machine Learning Internship Projects using Python.
+🎬 Sentiment Analysis System
+📌 Project Description
+The Sentiment Analysis System is a Machine Learning and Natural Language Processing (NLP) project that classifies movie reviews as Positive or Negative.
 
-## 🎬 Sentiment Analysis System
+The model is trained on the IMDb Movie Reviews Dataset (50,000 reviews) and uses TF-IDF Vectorization along with Logistic Regression to perform sentiment classification.
 
-### 📌 Project Description
+This project demonstrates a complete ML pipeline including:
 
-The Sentiment Analysis System is a Machine Learning and Natural Language Processing (NLP) project that classifies movie reviews as **Positive** or **Negative**.
-
-The model is trained on the **IMDb Movie Reviews Dataset (50,000 reviews)** and uses **TF-IDF Vectorization** along with **Logistic Regression** for sentiment classification.
-
-This project demonstrates a complete Machine Learning pipeline including:
-
-* Data preprocessing
-* Text cleaning
-* Feature extraction
-* Model training
-* Model evaluation
-* Prediction
-
----
-
-## 🎯 Objective
-
+Data preprocessing
+Text cleaning
+Feature extraction
+Model training
+Evaluation
+Prediction
+🎯 Objective
 To automatically determine the sentiment of a movie review by analyzing text and classifying it as:
 
-* 👍 Positive
-* 👎 Negative
-
----
-
-## 🛠 Technologies Used
-
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* NLTK
-* TF-IDF Vectorization
-* Logistic Regression
-* Pickle
-
----
-
-## 📂 Project Structure
-
-```text
+👍 Positive
+👎 Negative
+🛠 Technologies Used
+Python
+Pandas
+NumPy
+Scikit-learn
+NLTK (for text preprocessing)
+TF-IDF Vectorization
+Logistic Regression
+Pickle (Model saving)
+📂 Project Structure
 Sentiment_Analysis_System/
 │
 ├── data/
@@ -64,6 +49,7 @@ Sentiment_Analysis_System/
 │
 ├── requirements.txt
 └── README.md
+<<<<<<< HEAD
 ```
 
 ---
@@ -179,3 +165,5 @@ python src/predict.py
 ## 🏆 Conclusion
 
 This project demonstrates the use of NLP and Machine Learning techniques to classify movie reviews based on sentiment. Using TF-IDF Vectorization and Logistic Regression, the system achieves high accuracy and has practical real-world applications.
+=======
+>>>>>>> cb79682e7c34472f65e400ed5e74fa50fd86effd
