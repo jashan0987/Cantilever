@@ -10,9 +10,9 @@ Machine Learning Internship Projects using Python.
 
 The Sentiment Analysis System is a Machine Learning and Natural Language Processing (NLP) project that classifies movie reviews as **Positive** or **Negative**.
 
-The model is trained on the **IMDb Movie Reviews Dataset (50,000 reviews)** and uses **TF-IDF Vectorization** along with **Logistic Regression** to perform sentiment classification.
+The model is trained on the **IMDb Movie Reviews Dataset (50,000 reviews)** and uses **TF-IDF (Term Frequency–Inverse Document Frequency) Vectorization** along with **Logistic Regression** to perform sentiment classification.
 
-This project demonstrates a complete Machine Learning workflow including:
+This project demonstrates a complete Machine Learning workflow, including:
 
 * Data Preprocessing
 * Text Cleaning
@@ -25,7 +25,7 @@ This project demonstrates a complete Machine Learning workflow including:
 
 ## 🎯 Objective
 
-To automatically determine the sentiment of a movie review by analyzing its text and classifying it as:
+To automatically determine the sentiment expressed in a movie review by analyzing the review text and classifying it as:
 
 * 👍 Positive
 * 👎 Negative
@@ -85,26 +85,36 @@ Sentiment_Analysis_System/
 
 ### 1. Data Preprocessing
 
+The review text is cleaned before training the model:
+
 * Convert text to lowercase
 * Remove punctuation and special characters
 * Remove stopwords using NLTK
-* Clean and normalize review text
+* Normalize and clean review text
 
 ### 2. Feature Extraction
 
-* Convert text into numerical vectors using TF-IDF Vectorization
+The cleaned text is converted into numerical vectors using **TF-IDF Vectorization**.
 
 ### 3. Model Training
 
-* Train a Logistic Regression classifier on the processed dataset
+A **Logistic Regression** classifier is trained using the processed dataset.
 
 ### 4. Model Evaluation
 
-* Evaluate model performance using accuracy score
+The model is evaluated using accuracy score on unseen test data.
 
-### 5. Prediction
+### 5. Sentiment Prediction
 
-* Predict whether a review is Positive or Negative
+The trained model predicts whether a movie review is positive or negative.
+
+---
+
+## 🤖 Machine Learning Algorithm
+
+### Logistic Regression
+
+Logistic Regression is a supervised machine learning algorithm commonly used for binary classification tasks. It is efficient, fast, and performs well on text classification problems such as sentiment analysis.
 
 ---
 
@@ -195,7 +205,7 @@ python src/predict.py
 
 ## 🏆 Conclusion
 
-This project demonstrates the practical use of Machine Learning and Natural Language Processing techniques for sentiment classification. By combining TF-IDF Vectorization with Logistic Regression, the system achieves high accuracy and can be applied to various real-world text analysis tasks.
+This project demonstrates the practical application of Machine Learning and Natural Language Processing techniques for sentiment classification. By combining TF-IDF Vectorization with Logistic Regression, the system achieves high accuracy and can be applied to various real-world text analysis tasks.
 
 ---
 
@@ -203,7 +213,7 @@ This project demonstrates the practical use of Machine Learning and Natural Lang
 
 **Jashanpreet Kaur**
 
-B.Tech Computer Science and Engineering
+B.Tech, Computer Science and Engineering
 National Institute of Technology Hamirpur
 
-GitHub: https://github.com/jashan0987
+GitHub Profile: https://github.com/jashan0987
