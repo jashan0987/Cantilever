@@ -72,9 +72,9 @@ Sentiment_Analysis_System/
 
 ## 📊 Dataset Information
 
-* Dataset: IMDb Movie Reviews Dataset
-* Total Reviews: 50,000
-* Classes:
+* **Dataset:** IMDb Movie Reviews Dataset
+* **Total Reviews:** 50,000
+* **Classes:**
 
   * Positive Reviews
   * Negative Reviews
@@ -86,7 +86,7 @@ Sentiment_Analysis_System/
 ### 1. Data Preprocessing
 
 * Convert text to lowercase
-* Remove special characters and punctuation
+* Remove punctuation and special characters
 * Remove stopwords using NLTK
 * Clean and normalize review text
 
@@ -110,9 +110,13 @@ Sentiment_Analysis_System/
 
 ## 📈 Results
 
-**Model Accuracy:** ~88.89%
+### Model Accuracy
 
-### Example
+**Accuracy: ~88.89%**
+
+The model successfully classifies movie reviews into Positive and Negative sentiments with high accuracy using TF-IDF Vectorization and Logistic Regression.
+
+### Example 1
 
 **Input**
 
@@ -126,11 +130,25 @@ This movie was fantastic and amazing.
 Positive Review
 ```
 
+### Example 2
+
+**Input**
+
+```text
+This movie was boring and a waste of time.
+```
+
+**Output**
+
+```text
+Negative Review
+```
+
 ---
 
 ## 🚀 Installation
 
-Install required packages:
+Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -178,3 +196,14 @@ python src/predict.py
 ## 🏆 Conclusion
 
 This project demonstrates the practical use of Machine Learning and Natural Language Processing techniques for sentiment classification. By combining TF-IDF Vectorization with Logistic Regression, the system achieves high accuracy and can be applied to various real-world text analysis tasks.
+
+---
+
+## 👩‍💻 Author
+
+**Jashanpreet Kaur**
+
+B.Tech Computer Science and Engineering
+National Institute of Technology Hamirpur
+
+GitHub: https://github.com/jashan0987
