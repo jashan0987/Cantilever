@@ -1,37 +1,38 @@
-# 💳 Credit Card Fraud Detection System
+🎓 Cantilever
 
-## 📌 Project Description
+Machine Learning Internship Projects using Python.
 
-The Credit Card Fraud Detection System is a Machine Learning project designed to identify fraudulent credit card transactions. The model is trained on a real-world credit card transaction dataset and classifies transactions as either legitimate or fraudulent.
+💳 Credit Card Fraud Detection System
+📌 Project Description
 
-This project demonstrates a complete Machine Learning workflow, including data loading, preprocessing, model training, evaluation, prediction, and model deployment preparation.
+The Credit Card Fraud Detection System is a Machine Learning project that identifies fraudulent credit card transactions as either legitimate or fraudulent.
 
----
+The model is trained on the Credit Card Fraud Detection Dataset and uses a Random Forest Classifier to detect suspicious transactions with high accuracy.
 
-## 🎯 Objective
+This project demonstrates a complete Machine Learning workflow, including:
 
-The objective of this project is to automatically detect fraudulent credit card transactions and help improve financial security by identifying suspicious activities.
+Data Loading
+Data Preparation
+Feature Selection
+Model Training
+Model Evaluation
+Fraud Prediction
+🎯 Objective
 
----
+To automatically detect fraudulent credit card transactions and help improve financial security by identifying suspicious activities.
 
-## 🛠 Technologies Used
-
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* Random Forest Classifier
-* Pickle
-
----
-
-## 📂 Project Structure
-
-```text
+🛠 Technologies Used
+Python
+Pandas
+NumPy
+Scikit-learn
+Random Forest Classifier
+Pickle
+📂 Project Structure
 Credit_Card_Fraud_Detection/
 │
 ├── data/
-│   └── creditcard.csv
+│   └── dataset_note.txt
 │
 ├── model/
 │   └── fraud_model.pkl
@@ -42,154 +43,99 @@ Credit_Card_Fraud_Detection/
 │
 ├── requirements.txt
 └── README.md
-```
+📊 Dataset Information
 
----
+Dataset: Credit Card Fraud Detection Dataset
 
-## 📊 Dataset Information
+Total Transactions: 284,807
+Total Features: 30
+Target Column: Class
 
-* Dataset: Credit Card Fraud Detection Dataset
-* Total Transactions: 284,807
-* Total Features: 30
-* Target Column: Class
+Class Labels
+0 → Normal Transaction
+1 → Fraudulent Transaction
 
-### Class Labels
+The dataset is highly imbalanced, with fraudulent transactions representing a very small percentage of all transactions.
 
-* 0 → Normal Transaction
-* 1 → Fraudulent Transaction
-
-The dataset is highly imbalanced, with fraudulent transactions representing a very small percentage of the total transactions.
-
----
-
-## ⚙️ Methodology
-
-### 1. Data Loading
+⚙️ Methodology
+1. Data Loading
 
 The dataset is loaded using Pandas.
 
-### 2. Data Preparation
+2. Data Preparation
+Separate features and target variable
+Define input and output data
+3. Train-Test Split
 
-* Separate features and target variable.
-* Define input and output data.
+The dataset is divided into training and testing sets.
 
-### 3. Train-Test Split
+4. Model Training
 
-The dataset is split into training and testing sets.
+A Random Forest Classifier is trained using the prepared dataset.
 
-### 4. Model Training
+5. Model Evaluation
 
-A Random Forest Classifier is trained using the training dataset.
+The model is evaluated using accuracy score.
 
-### 5. Model Evaluation
-
-The trained model is evaluated using accuracy score.
-
-### 6. Model Saving
+6. Model Saving
 
 The trained model is saved as:
 
-```text
 model/fraud_model.pkl
-```
+7. Fraud Prediction
 
-### 7. Prediction
+The saved model is used to predict whether a transaction is normal or fraudulent.
 
-The saved model is loaded and used to predict whether a transaction is normal or fraudulent.
+🤖 Machine Learning Algorithm
+Random Forest Classifier
 
----
+Random Forest is an ensemble Machine Learning algorithm that combines multiple decision trees to improve prediction accuracy and reduce overfitting. It performs well for classification tasks like fraud detection.
 
-## 📈 Results
+📈 Results
+Model Accuracy
 
-### Model Accuracy
+Accuracy: ~99.95%
 
-```text
-Accuracy: 99.95%
-```
-
-### Example Output
-
-```text
+Example Output
 Normal Transaction
-```
-
-The model successfully identifies normal and fraudulent transactions with high accuracy.
-
----
-
-## 🚀 Installation
-
-Install the required dependencies:
-
-```bash
+🚀 Installation
 pip install -r requirements.txt
-```
-
----
-
-## ▶️ Run the Project
-
-### Train the Model
-
-```bash
+▶️ Run the Project
+Train Model
 python src/train_model.py
-```
-
-### Predict Transaction
-
-```bash
+Predict Transaction
 python src/predict.py
-```
+📥 Dataset Note
 
----
+The dataset file is not included in GitHub because it exceeds GitHub’s file size limit.
 
-## 📥 Dataset
+Before running the project:
 
-The dataset is not included in this repository because it exceeds GitHub's file size limit.
+👉 Download the dataset
+👉 Place it inside the data/ folder as:
 
-Download the Credit Card Fraud Detection Dataset and place:
-
-```text
 creditcard.csv
-```
-
-inside the `data/` folder before running the project.
-
----
-
-## 💡 Applications
-
-* Banking Security Systems
-* Online Payment Fraud Detection
-* Financial Risk Management
-* Transaction Monitoring
-* Digital Payment Platforms
-
----
-
-## 🔮 Future Improvements
-
-* XGBoost Classifier
-* Deep Learning Models
-* Real-Time Fraud Detection
-* Streamlit Web Application
-* Interactive Dashboard
-* Hyperparameter Tuning
-
----
-
-## 🏆 Conclusion
+💡 Applications
+Banking Security Systems
+Online Payment Fraud Detection
+Financial Risk Management
+Transaction Monitoring
+Digital Payment Platforms
+🔮 Future Improvements
+XGBoost Classifier
+Deep Learning Models
+Real-Time Fraud Detection
+Streamlit Web Application
+Interactive Dashboard
+Hyperparameter Tuning
+🏆 Conclusion
 
 This project demonstrates the practical application of Machine Learning for detecting fraudulent credit card transactions. By using a Random Forest Classifier, the system achieves high accuracy and can help financial institutions improve transaction security and reduce fraud-related losses.
 
----
+👩‍💻 Author
 
-## 👩‍💻 Author
-
-**Jashanpreet Kaur**
-
-B.Tech Computer Science and Engineering
-
+Jashanpreet Kaur
+B.Tech, Computer Science and Engineering
 National Institute of Technology Hamirpur
 
 GitHub: https://github.com/jashan0987
